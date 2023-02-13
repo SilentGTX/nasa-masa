@@ -1,0 +1,37 @@
+.daily_astro {
+  display: flex;
+  flex-direction: row;
+}
+
+.daily_astro_content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.daily_astro_content h1 {
+  font-family: var(--font-family);
+  font-size: 40px;
+  line-height: 75px;
+  letter-spacing: -0.02em;
+}
+
+.daily_astro_content p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--color-text);
+  letter-spacing: 0.03em;
+  margin-top: 1.5rem;
+}
+
+.info-text {
+  display: flex;
+}
+
+.info-text p {
+  padding: 0px 0.3rem 0 0;
+}
