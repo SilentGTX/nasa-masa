@@ -1,24 +1,26 @@
-.daily_astro {
+.earth {
   display: flex;
   flex-direction: row;
 }
 
-.daily_astro_content {
+.earth_content {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  margin-right: 5rem;
 }
 
-.daily_astro_content h1 {
+.earth_content h1 {
   font-family: var(--font-family);
   font-size: 40px;
   line-height: 75px;
   letter-spacing: -0.02em;
 }
 
-.daily_astro_content p {
+.earth_content p {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
@@ -28,37 +30,23 @@
   margin-top: 1.5rem;
 }
 
-.info-text {
+.earth_image {
+  flex: 1;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.info-text p {
-  padding: 0px 0.3rem 0 0;
-}
-
-.line {
-  background: var(--gradient-text);
+.earth_image img {
   width: 100%;
-  margin: 2.5rem;
-  height: 0.1rem;
-}
-
-.text-white {
-  color: white !important;
-}
-
-.text-small {
-  font-size: 15px !important;
-  margin-top: 0 !important;
+  height: 100%;
 }
 
 @media screen and (max-width: 1050px) {
-  .daily_astro {
+  .earth {
     flex-direction: column;
   }
 
-  .image-wrapper img {
-    width: 100%;
-    height: 100%;
+  .earth_content {
+    margin: 2rem 0 3rem;
   }
 }

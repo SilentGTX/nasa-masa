@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "./components";
-import { Home, DailyAstro } from "./pages";
+import { Home, DailyAstro, Earth } from "./pages";
 import "./App.css";
 const App = () => (
   <div className="App">
@@ -8,6 +8,7 @@ const App = () => (
       <Navbar />
       <Home />
       <DailyAstro />
+      <Earth />
     </div>
   </div>
 );
